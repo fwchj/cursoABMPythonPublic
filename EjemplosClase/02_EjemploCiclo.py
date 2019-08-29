@@ -26,4 +26,3 @@ while(result >= 0.00001):
     if iter>maxiter:            # Verifico si no llegamos al máximo de iteraciones
         print("Termino porque llegué al máximo de iteración")
         break
-    
