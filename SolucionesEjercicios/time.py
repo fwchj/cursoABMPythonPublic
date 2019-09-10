@@ -1,9 +1,12 @@
 # Ejercicio 1: mostrar la hora en la CDMX (version avanzada, ponder -6 para CDMX)
 import time
-timestamp = time.time()
+
 
 # Preguntamos por la difrencia de horario
 diff = input("What is the difference in hours with regard to UTC?\n(e.g. put -6 for Mexico City or 1 for Berlin)\n")
+
+# Obtenemos la hora en EPOCH
+timestamp = time.time()
 
 # Calculamos las horas, minutas y segundos
 seconds = timestamp  % 60;              # Usando el modulo obtenemos el numero de segundos desde el ultimo minuto
