@@ -1,0 +1,23 @@
+indicador,descripcion,year
+cellph_per100,Mobile cellular subscriptions (per 100 people),2017
+co2_perc,CO2 emissions (metric tons per capita),2014
+land_area,Land area (sq. km),2017
+electricity,Access to electricity (% of population),2017
+fertility,"Fertility rate, total (births per woman)",2017
+fuel_exps_pc,Fuel exports (% of merchandise exports),2014
+start_business,Time required to start a business (days),2018
+foreign_inv,"Foreign direct investment, net inflows (BoP, current US$)",2017
+gdp,GDP (current US$),2017
+gdp_pc,"GDP per capita, PPP (current international $)",2017
+growth_gdp_pc,GDP per capita growth (annual %),2017
+hiv_prev,"Prevalence of HIV, total (% of population ages 15-49)",2017
+servs_mill,Secure Internet servers (per 1 million people),2017
+mil_exp,Military expenditure (% of GDP),2018
+internet_users,Individuals using the Internet (% of population),2017
+population,"Population, total",2018
+rd_exp,Research and development expenditure (% of GDP),2015
+taxRev_pc,Tax revenue (% of GDP),2015
+val_primary,"Agriculture, forestry, and fishing, value added (% of GDP)",2016
+val_industry,"Industry (including construction), value added (% of GDP)",2016
+val_manufacturing,"Manufacturing, value added (% of GDP)",2016
+val_services,"Services, value added (% of GDP)",2016
