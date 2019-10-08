@@ -1,0 +1,3 @@
+Name,Area,Tenure
+John Smith,Accounting,5
+Erica Meyers,IT,2

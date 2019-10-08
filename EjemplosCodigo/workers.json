@@ -1,0 +1,26 @@
+{
+  "CompanyName": "MyCompany",
+    "Employee": [
+      {
+        "Name": "Jane",
+        "FamilyName": "Parker",
+        "Age": "42",
+        "Female": "TRUE",
+        "GrossSalary": "4100.9"
+      },
+      {
+        "Name": "John",
+        "FamilyName": "Miller",
+        "Age": "45",
+        "Female": "FALSE",
+        "GrossSalary": "40500"
+      },
+      {
+        "Name": "Patrick",
+        "FamilyName": "Johnson",
+        "Age": "29",
+        "Female": "FALSE",
+        "GrossSalary": "28500.00"
+      }
+    ]
+  }

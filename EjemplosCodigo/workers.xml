@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Workforce>
+  <Employee type="permanent">
+        <Name>Jane</Name>
+		<FamilyName>Parker</FamilyName>
+
+		<Female>TRUE</Female>
+		<GrossSalary>679000.10</GrossSalary>
+				<Age>48</Age>
+   </Employee>
+     <Employee type="permanent">
+        <Name>John</Name>
+		<FamilyName>Miller</FamilyName>
+		<Age>45</Age>
+		<Female>FALSE</Female>
+		<GrossSalary>40500</GrossSalary>
+   </Employee>
+     <Employee type="permanent">
+        <Name>Patrick</Name>
+		<FamilyName>Johnson</FamilyName>
+		<Age>29</Age>
+		<Female>FALSE</Female>
+		<GrossSalary>28500.00</GrossSalary>
+   </Employee>
+</Workforce>
