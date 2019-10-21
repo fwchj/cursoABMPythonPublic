@@ -1,0 +1,6 @@
+Name,FamilyName,Age,Female,GrossSalary,
+Jane,Parker,42,TRUE,48000.10,
+John,Miller,49,FALSE,40500.0,
+Patrick,Johnson,29,FALSE,28500.0,
+Juan,Santos,33,FALSE,99999.9,
+Pedro,Garush,55,FALSE,777777333,
