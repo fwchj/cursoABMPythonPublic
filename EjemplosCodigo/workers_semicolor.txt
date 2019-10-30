@@ -1,4 +1,4 @@
-Name;FamilyName;Age;Female;GrossSalary;
+Name;Apellido;Age;Female;GrossSalary;
 Jane;Parker;42;TRUE;48000.10;
 John;Miller;49;FALSE;40500.0;
 Patrick;Johnson;29;FALSE;28500.0;

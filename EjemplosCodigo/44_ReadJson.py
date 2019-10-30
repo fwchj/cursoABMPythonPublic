@@ -10,6 +10,7 @@ print(type(data))
 
 # Get the element 'Employee'
 employees = data["Employee"]
+print(type(employees))
 for e in employees: # loop through all employees
     print(e) #again, we have a dictionnary
 

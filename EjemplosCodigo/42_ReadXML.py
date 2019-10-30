@@ -18,6 +18,7 @@ for employee in file.findall("Employee"):
     
     # Print the information
     print(type,name,familyname,female,age,salary,sep="|")
-    
+    print(female)
+   
     
     

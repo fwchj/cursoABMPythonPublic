@@ -28,3 +28,17 @@ print(datos)
 # Open a file and convert the dictionnary to a json string
 with open("lista_cursos.json",'w') as f:
     json.dump(datos,f)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
