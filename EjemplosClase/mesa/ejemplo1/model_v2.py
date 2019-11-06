@@ -1,5 +1,6 @@
 from mesa import Agent,Model
 from mesa.time import BaseScheduler,RandomActivation
+from mesa.datacollection import DataCollector
 
 class Persona(Agent):
     def __init__(self,unique_id,model,nombre,dinero):
@@ -15,7 +16,12 @@ class Persona(Agent):
             mi_amigo.dinero +=1 # Agregamos un peso al amigo
             
         
-    
+def countAgentWithPositiveBalance(model):
+    counter = 0
+    for a in model.schedule.agents:
+        if a.dinero > 0: 
+            counter += 1
+    return counter
 
 class Amigo(Model):
     def __init__(self,numero_agentes):
@@ -26,10 +32,15 @@ class Amigo(Model):
             a = Persona(self.next_id(),self,self.random.choice(nombres),5)
             self.schedule.add(a)
         
+        self.datacollector = DataCollector(
+            agent_reporters={"Dinero":"dinero","Nombre":"nombre"},
+            model_reporters={"AgentWithMoney":countAgentWithPositiveBalance})
+        
     def step(self):
         self.schedule.step()
         for a in self.schedule.agents:
             print(" %s(%s) ahora tiene %s pesos" % (a.nombre,a.unique_id,a.dinero))
+        self.datacollector.collect(self)
         print("--- Fin de tick ---")
         
 
@@ -42,8 +53,9 @@ for i in range(0,5):
 print("=== RESULTADO FINAL ====")
 for a in m2.schedule.agents:
     print("%s tiene %s pesos" % (a.nombre,a.dinero))
-
-
+print(m2.datacollector.get_agent_vars_dataframe())
+print("---------")
+print(m2.datacollector.get_model_vars_dataframe())
 
 
 

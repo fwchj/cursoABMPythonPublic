@@ -40,4 +40,14 @@ chart2 = ChartModule([{"Label":"Active agents","Color":"blue"}],data_collector_n
 # Combine all and setup the server
 server = ModularServer(FoodModel, [canvas_element,chart,chart2], "Food model", model_params)
  
-# Note, executing this file will NOT start the server. Plase to to runServer.py
+# Note, executing this file will NOT start the server. Please to to runServer.py
+
+
+
+
+
+
+
+
+
+
