@@ -34,5 +34,6 @@ batch_run.run_all()
 
 # Once the run is over, get the data from the model and plot interesting stuff
 run_data = batch_run.get_model_vars_dataframe()
+print(run_data.head())
 plt.scatter(run_data.Nfood, run_data.Bugcounter)
 plt.show()
