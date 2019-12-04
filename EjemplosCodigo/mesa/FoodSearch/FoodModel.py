@@ -16,6 +16,15 @@ class FoodAgent(Agent):
     # The method step is the one that executes in each period 
     def step(self):
         # Find the neighbourhood: moore refers to the 8-neighbours
+      
+        #-------- INICIO -------
+        vecinos = self.model.grid.get_neighbors(self.pos,moore=True,include_center=False)
+        sum = 0
+        for v in vecinos:
+            sum += v.energy
+        print("El promedio es:",sum/len(vecinos)) 
+        #-------- FIN    -------
+            
         neighborhood = self.model.grid.get_neighborhood(self.pos,moore=True,include_center=False)
         
         # Find the best place to go (highest energy). 
